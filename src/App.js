@@ -5,7 +5,7 @@ const App = () => {
   const [gifSrc, setGifSrc] = useState(
     "https://media.tenor.com/Vy46BTSo3hsAAAAC/bear-love.gif"
   );
-  const [message, setMessage] = useState("Let us go somewhere on our next anniversary?");
+  const [message, setMessage] = useState("Ready to spend the entire life with me?");
   const [noButtonStyle, setNoButtonStyle] = useState({});
 
   const maxHeight = window.innerHeight;
@@ -17,12 +17,12 @@ const App = () => {
 
   const handleYesClick = () => {
     setGifSrc("https://media.tenor.com/KFkmX5T_5LEAAAAC/love-you-brown-bear.gif");
-    setMessage("Yayyy!");
+    setMessage("Thank you so much!!! and I love you soooo sooo soo soo soo soo.....much");
   };
 
   const handleNoClick = () => {
     setGifSrc("https://media.tenor.com/jsQumF2np4kAAAAC/bear-shocked.gif");
-    setMessage("HOW THE FUCK, but anyways, we will go");
+    setMessage("HOW THE FUCK, but anyways, you love me.");
   };
 
   const handleNoHover = () => {
